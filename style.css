@@ -1,0 +1,7 @@
+body{ margin: 0; padding: 0; }
+.slider-box{ margin:0; padding:0; width: 100%; overflow-x: hidden; }
+.slider-box .slider-left{ margin:0; padding:0; }
+.slider-box .slider-right{ margin:0; padding:0; }
+.slider-box .slider-center{ padding:5px; }
+.slider-box .slider-left .col-md-4{ padding:10px; }
+.slider-box .slider-right .col-md-4{ padding:10px; }
