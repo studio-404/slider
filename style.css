@@ -1,7 +1,5 @@
-body{ margin: 0; padding: 0; }
-.slider-box{ margin:0; padding:0; width: 100%; overflow-x: hidden; }
-.slider-box .slider-left{ margin:0; padding:0; }
-.slider-box .slider-right{ margin:0; padding:0; }
-.slider-box .slider-center{ padding:5px; }
-.slider-box .slider-left .col-md-4{ padding:10px; }
-.slider-box .slider-right .col-md-4{ padding:10px; }
+body{ margin: 0; padding: 0;  }
+.slider-box{ margin:0; padding:0; width: 100%; height: 100%; position: absolute; z-index: 1; top: 0; left: 0; }
+.slider-box .slider-left{ margin: 0; padding: 0; width: calc(50% - 200px); height: 250px; position: absolute; left: 0; top: calc(50% - 125px); z-index: 2; background-color: green; overflow: hidden; }
+.slider-box .slider-center{ margin: 0; padding: 0; width: 400px; height: 560px; position: absolute; left: calc(50% - 200px); top: calc(50% - 280px); z-index: 2; background-color: red; overflow: hidden; }
+.slider-box .slider-right{ margin: 0; padding: 0; width: calc(50% - 200px); height: 250px; position: absolute; right: 0; top: calc(50% - 125px); z-index: 2; background-color: yellow; overflow: hidden; }

@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var smallw = parseInt($(".slider-left .col-md-4 img").width());
 	var smallh = parseInt($(".slider-left .col-md-4 img").height());
 
-	var marginTop = (bigh - smallh) / 2;
+	var marginTop = ((bigh - smallh) / 2) + 55;
 	var marginLeft = smallw / 2;
 	$(".slider-left").css({
 		"margin-top": marginTop+"px"
